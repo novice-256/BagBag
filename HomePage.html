@@ -1,0 +1,1805 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Untitled Document</title>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+<link rel="stylesheet" type="text/css" href="css/my-slider.css"/>
+<link rel="stylesheet" type="text/css" href="css/styling-of- btn-top.css" />
+<link rel="stylesheet" type="text/css" href="css/styling-of-header.css" />
+<link rel="stylesheet" type="text/css" href="css/styling-of-products.css" />
+<link rel="stylesheet" type="text/css" href="css/styling-of-footer.css" />
+<link rel="stylesheet" type="text/css" href="css/styling of gallery.css" />
+<link rel="stylesheet" type="text/css" href="css/styling-of-blog.css" />
+<link rel="stylesheet" type="text/css" href="css/styling--ofafter-slider.css" />
+<link rel="stylesheet" type="text/css" href="css/styling-of-feedback.css" />
+<script src="js/ism-2.2.min.js"></script>
+</head>
+<style>
+
+ul{
+	border-bottom:double;
+}
+.ab{
+	float:left;
+	margin-top:15px;
+	font-size:15px;
+}
+.abc{
+	height:50px;
+	background-color:#333;
+	border:groove;
+	color:#FFF;
+	margin-top:30px;
+}
+.abcd{
+	float:right;
+	color:#FFF;
+	margin-top:15px;
+	font-size:15px;
+}
+marquee img{height:200px;
+		border:ridge;}
+
+.jumplinks-menu-wrapper {
+  position: fixed;
+  margin-top:200px;
+  z-index: 99;
+  background-color:#11446F;
+  border:2px solid #F1F1F1;
+  
+ 
+  
+}
+.jumplinks-menu-wrapper:hover {
+	background-color:#FFF;
+	 border:2px solid #11446F;
+	border-radius:50px;
+}
+	
+.jlinks-menu {
+	width:150px;
+	margin-top:03px;
+	text-align:center;
+	height:30px;
+	color:#27A49C;
+	}
+
+.jlinks-menu a{
+	
+	color:#FFF;
+	text-align:center;
+}
+.jlinks-menu a:hover{
+	color:#11446F;
+	
+	
+}
+/* 
+ads
+*/
+.jplinks-menu-wrapper {
+  position: fixed;
+  margin-top:240px;
+  z-index: 99;
+  background-color:#11446F;
+  border:2px solid #F1F1F1;
+  
+ 
+  
+}
+.jplinks-menu-wrapper:hover {
+	background-color:#FFF;
+	 border:2px solid #11446F;
+	border-radius:50px;
+}
+	
+.links-menu {
+	width:150px;
+	margin-top:03px;
+	text-align:center;
+	height:30px;
+	color:#27A49C;
+	}
+
+.links-menu a{
+	
+	color:#FFF;
+	text-align:center;
+}
+.links-menu a:hover{
+	color:#11446F;
+	
+	
+}
+
+</style>
+</head>
+<body>
+
+<!------------------------------------------------GO TO TOP---------------------------------->
+
+<button onClick="topFunction()" id="myBtn" title="Go to top"><span class="glyphicon glyphicon-chevron-up"></span></button>
+
+
+
+<script>
+
+var mybutton = document.getElementById("myBtn");
+
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+<!---------------------
+    feedback button
+    
+    ------------------------------>
+<div class="jumplinks-menu-wrapper"> 
+<div class="jlinks-menu"> 
+<div class="jumplinks-container">
+<a href="#fbk">Feedback</a>
+</div> </div> </div>
+
+
+<!------------------------end
+------------------------------>
+<!---------------------
+   site button
+    
+    ------------------------------>
+<div class="jplinks-menu-wrapper"> 
+<div class="links-menu"> 
+<a href="#map
+">Sitemap</a>
+</div> </div>
+
+
+<!------------------------end
+------------------------------>
+
+<div class="container">
+<!--------------------------------------------Navbar-Start------------>
+<div class="container">
+	<section class="row"  >
+	<div class="col-lg-2">
+		<img src="image/logo/loogo.png" height="100" width="290"/>
+	</div>
+	<div class="col-lg-2"></div>
+	<div class="col-lg-8">
+		<div class="topnav" id="myTopnav">
+  			<a href="#home" class="active" style="color:#27A49C;border-right:double;">Home&nbsp;<i class="glyphicon glyphicon-home"></i></a>
+  			<a href="#gly">Gallery&nbsp;<i class="glyphicon glyphicon-picture"></i></a>
+  <div class="dpdown">
+    <button class="dpbtn">Products 
+      <i class="caret"></i>
+    </button>
+    <div class="dpdown-content">
+     <a href="#mn">Men&nbsp;<i class="glyphicon glyphicon-shopping-cart"></i></a>
+  	 <a href="#wmn">Women&nbsp;<i class="glyphicon glyphicon-shopping-cart"></i></a>
+    </div>
+  </div> 
+  			<a href="Brands.html">Brand</a>
+  			<a href="#cts">Contact Us&nbsp;<i class="glyphicon glyphicon-earphone"></i></a>
+  			<a href="#abt">About Us&nbsp;<i class="glyphicon glyphicon-info-sign"></i></a>
+            <a href="#ads">Ads</a>
+  			<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+		</div>
+	</div>
+    </section>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+<!-------------------------------------------Navbar-End-------------------------------------->
+<div class="row">
+<div class="col-lg-12">
+<div class="a"></div>
+</div>
+</div>
+
+<!-----------------------------------------------Slider-Start------------------------------------>
+<div class="container">
+<div class="row">
+<div class="col-lg-12">
+
+
+<div class="ism-slider" data-play_type="loop" data-radios="false" id="my-slider">
+  <ol>
+    <li>
+      <img src="image/_u/1568222487237_91010.png">
+    </li>
+    <li>
+      <img src="image/_u/1567707077838_401635.jpg">
+    </li>
+  </ol>
+</div>
+</div>
+</div>
+</div>
+<!---------------------------------------->
+<div class="row">
+<div class="col-lg-12">
+<div class="a"></div>
+</div>
+</div>
+<!-----------------------------------------------Slider-Endt------------------------------------>
+<div class="container">
+    <div class="row">
+    	<div class="col-md-12 homeheading" id="ads">
+			<h1 >Advertisement Of Different Bags Of Our Company</h1>
+			<p style="font-size:16px;text-align:center;color:#FFF;">Designing And Creating The High Quality Durable Differnent Bags For Multipurpose Use</p>
+		</div>
+    </div>
+    </div>
+<!----------------------------marque-------------------------------->
+<div class="container">
+	<div class="row" style="border:2px solid #27A49C;;margin-top:10px;" >
+    	<div class="btn-lg-12">
+        	<marquee >
+            	<img src="image/images of bags/backpack/tommy-1.png" id="img"/>
+                <img src="image/images of bags/Clutches bags/dree-1.png" />
+                <img src="image/images of bags/Rucksacks/golden-1.png" />
+                <img src="image/images of bags/Sling Bags/lafille-1.png"  />
+                <img src="image/images of bags/trollybag/calvin-1.png"  />
+                <img src="image/images of bags/duffelbag/benetton-1.png"  />
+                <img src="image/images of bags/backpack/ghost-1.png"  />
+                <img src="image/images of bags/Clutches bags/dressbarry-1.png"  />
+                <img src="image/images of bags/Rucksacks/gray-1.png"  />
+                <img src="image/images of bags/Sling Bags/dress-1.png"  />
+                <img src="image/images of bags/trollybag/national-1.png"  />
+                <img src="image/images of bags/duffelbag/adidas-1.png"  />
+                <img src="image/images of bags/backpack/gods-1.png"  />
+                <img src="image/images of bags/Clutches bags/diwaah-1.png"  />
+                <img src="image/images of bags/Rucksacks/green-1.png"  />
+                <img src="image/images of bags/Sling Bags/vivin-1.png"  />
+                <img src="image/images of bags/trollybag/esbeda-1.png"  />
+                <img src="image/images of bags/duffelbag/hrx-1.png"  />
+                <img src="image/images of bags/backpack/hilf-1.png"  />
+                <img src="image/images of bags/Clutches bags/esbeda-1.png"  />
+                <img src="image/images of bags/Rucksacks/impuls-1.png"  />
+                <img src="image/images of bags/Sling Bags/sollu-1.png"  />
+                <img src="image/images of bags/trollybag/cat-1.png"  />
+                <img src="image/images of bags/duffelbag/nick-1.png"  />
+                <img src="image/images of bags/backpack/benee-1.png"  />
+                <img src="image/images of bags/Clutches bags/mango-1.png" />
+                <img src="image/images of bags/Rucksacks/mounttrack-1.png"  />
+                <img src="image/images of bags/Sling Bags/lion-1.png"  />
+                <img src="image/images of bags/trollybag/safari-1.png"  />
+                <img src="image/images of bags/duffelbag/puma-1.png"  />
+                <img src="image/images of bags/backpack/gear-1.png"  />
+                <img src="image/images of bags/Clutches bags/tommy-1.png"  />
+                <img src="image/images of bags/Rucksacks/red-1.png"  />
+                <img src="image/images of bags/Sling Bags/capres-1.png"  />
+                <img src="image/images of bags/trollybag/united-1.png"  />
+                <img src="image/images of bags/duffelbag/rebook-1.png"  />
+                <img src="image/images of bags/backpack/hill-1.png"  />
+                <img src="image/images of bags/Clutches bags/tullip-1.png"  />
+                <img src="image/images of bags/Rucksacks/redbull-1.png"  />
+                <img src="image/images of bags/Sling Bags/benetton-1.png"  />
+                <img src="image/images of bags/trollybag/saffari-1.png"  />
+                <img src="image/images of bags/duffelbag/wildcraft-1.png"  />
+                <img src="image/images of bags/backpack/nick-1.png"  />
+                <img src="image/images of bags/Clutches bags/barry-1.png"  />
+                <img src="image/images of bags/Rucksacks/wildcraft-1.png"  />
+                <img src="image/images of bags/Sling Bags/legal-1.png"  />
+                <img src="image/images of bags/trollybag/bagr-1.png"  />
+                <img src="image/images of bags/duffelbag/yellu-1.png"  />
+                <img src="image/images of bags/backpack/puma-1.png" />
+            </marquee>
+        </div>
+	</div>
+</div>
+<!-----------------------------------marque end------------------------------------>
+
+<!----------------------------------------------------aFTERSLIDER------------------------>
+	<div class="container">
+    <div class="row">
+    	<div class="col-md-12 homeheading">
+			<h1 >50 Years Of Outdoor Experience And Still Exploring</h1>
+			<p style="font-size:16px;text-align:center;color:#FFF;">Designing And Creating The High Quality Durable Backpacks For Multipurpose Use</p>
+		</div>
+    </div>
+
+    <div class="row">
+    	<div class="col-md-4 b0x">
+    		<img src="image/pexels-photo-2254125.jpeg" class="img-responsive img-rounded "/>
+            <div class="kontent">
+            	<h1>Traveling Bag</h1>
+                <p>If you select this Bag your trip will be happy and joyfull and your persnal thing well be save.</p>
+            </div>
+		</div>
+        <div class="col-md-4 b0x">
+    		<img src="image/pexels-photo-2805394.jpeg" class="img-responsive img-rounded "/>
+            <div class="kontent">
+            	<h1>Traveling Bag</h1>
+                <p>If you select this Bag your trip will be happy and joyfull and your persnal thing well be save.</p>
+            </div>
+		</div>
+         <div class="col-md-4 b0x">
+    		<img src="image/pexels-photo-2846123.jpeg" class="img-responsive img-rounded"/>
+            <div class="kontent">
+            	<h1>Shopping Bag</h1>
+                <p>If you select this Bag your trip will be happy and joyfull and your persnal thing well be save.</p>
+            </div>
+		</div>
+    </div>
+
+</div>
+<!----------------------------AFTERSLIDER END------------------------------------------>
+
+<!------------------------------------------start Blog content---------------------------------------->
+		<div class="container">
+        
+        
+        <div class="row">
+		<div class="col-lg-12 abc" >
+        <div class="messages" id="gly"></div>
+			<div class="ab">BAGBAG&nbsp;<span style="color:#FF0"">Gallery.</span></div>
+			<div class="abcd"><a href="#" style="color:#FFF"><i class="glyphicon glyphicon-home"></i>&nbsp;Home&nbsp;</a>&nbsp;>&nbsp;Gallery</div>
+		</div>
+	</div>
+        
+        
+        
+        <div class="home-blog-div row">
+			<h1 class="home-blog-heading" style="font-family:'Palatino Linotype', 'Book Antiqua', Palatino, serif;font-size:36px;color:#27A49C">BAGBAG&nbsp;<span style="color:#11446F;">Gallery</span></h1>
+				<hr class="home-separator">
+				
+					<div class="featured">
+						<div class="col-md-3 col-sm-3 col-xs-6">
+							<div class="feature_inner feature_inner_bottom">
+								<div class="project-thumb">
+									<img class="postimg" src="image/Gallery/g1.jpg" width="350" height="200">											 										<div class="project-content">
+											<h3 class="project-title">Awkward Things That Happen When You Return From Backpacking</h3>
+										</div>								
+								</div>
+							</div>
+						</div>	
+						<div class="col-md-3 col-sm-3 col-xs-6">
+							<div class="feature_inner feature_inner_bottom">
+								<div class="project-thumb">
+									<img class="postimg" src="image/Gallery/g2.jpg" width="350" height="200">									 										<div class="project-content">
+											<h3 class="project-title">8 Myths About Solo Female Travel Debunked</h3>
+										</div>								
+								</div>
+							</div>
+						</div>	
+						<div class="col-md-3 col-sm-3 col-xs-6">
+							<div class="feature_inner feature_inner_bottom">
+								<div class="project-thumb">
+									<img class="postimg" src="image/Gallery/g3.jpg" width="350" height="200">								 										<div class="project-content">
+											<h3 class="project-title">Travel Tip: Put Away Your Damn Phone!</h3>
+										</div>								
+								</div>
+							</div>
+						</div>	
+						<div class="col-md-3 col-sm-3 col-xs-6">
+							<div class="feature_inner feature_inner_bottom">
+								<div class="project-thumb">
+									<img class="postimg" src="image/Gallery/g4.jpg" width="350" height="200">									 										<div class="project-content">
+											<h3 class="project-title">The Ultimate Packing List For Female Travelers</h3>
+										</div>								
+								</div>
+							</div>
+						</div>	
+						<div class="col-md-3 col-sm-3 col-xs-6">
+							<div class="feature_inner feature_inner_bottom">
+								<div class="project-thumb">
+									<img class="postimg" src="image/Gallery/g11.png" width="350" height="200">								    									<div class="project-content">
+											<h3 class="project-title">Does Backpack Size Matter?</h3>
+										</div>								
+								</div>
+							</div>
+						</div>	
+						<div class="col-md-3 col-sm-3 col-xs-6">
+							<div class="feature_inner feature_inner_bottom">
+								<div class="project-thumb">
+									<img class="postimg" src="image/Gallery/g5.jpg" width="350" height="200">							  										<div class="project-content">
+											<h3 class="project-title">What To Look For In A Good Backpack</h3>
+										</div>								
+								</div>
+							</div>
+						</div>	
+						<div class="col-md-3 col-sm-3 col-xs-6">
+							<div class="feature_inner feature_inner_bottom">
+								<div class="project-thumb">
+									<img class="postimg" src="image/Gallery/g7.png" width="350" height="200">								  										<div class="project-content">
+											<h3 class="project-title">What I Pack For My Travels</h3>
+										</div>								
+								</div>
+							</div>
+						</div>	
+						<div class="col-md-3 col-sm-3 col-xs-6">
+							<div class="feature_inner feature_inner_bottom">
+								<div class="project-thumb">
+									<img class="postimg" src="image/Gallery/g10.png" width="350" height="200">								 										<div class="project-content">
+											<h3 class="project-title">Choosing The Right Travel Backpack</h3>
+										</div>								
+								</div>
+							</div>
+						</div>	
+					</div>
+				</div>
+			<div class="clear"></div>
+		<div class="two_col-div row">
+			<div class="col-md-8 col-sm-8 feature_box">
+				<div class="feature_inner">
+					<h2>More Options At Our Store</h2>
+						<p>Lucky For You, We Are Having Backpacks With Ergonomic Shoulder Straps, Padded Back Panels And Every Other Convenience You Want—plus The Hottest Styles To Fit Your Look. Pack Up And Go With The Best Of Our Backpacks . If A Backpack's Not Your Style, Check Out Our Trendy Messenger Bags For Everyday Use Or Our Chic Selection Of Carry-on Bags For Travel.</p>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-4 last">
+				<div class="feature_inner">
+					<h2>Amazing Bags To See</h2>
+						<p>Lucky For You, We Are Having Backpacks With Ergonomic Shoulder Straps, Padded Back Panels And Every Other Convenience You Want—plus The Hottest Styles To Fit Your Look. Pack Up And Go With The Best Of Our Backpacks . </p>
+				</div>
+			</div>
+		</div>
+	</div>
+<!---------------------------------------BLOG 3ND------------------------------------->
+
+<!----------------------------------Gallery-start------------------------------------------------>
+<div id="box">
+<div id="bdy">
+<div class="main">
+<div id="h">
+<h1 style="font-family:Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', serif;"> <span style="color:red; font-family:Impact, Haettenschweiler, 'Franklin Gothic Bold', 'Arial Black', sans-serif;text-align:center" >BAGBAG</span> Gallery</h1>
+<hr>
+
+<b style="color:#000; font-size:30px;font-family:Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', serif;">Shop Luggage, Backpacks and Everything Bags & Travel Goods</b>
+<hr>
+<p style="color:#000">The most stylish bags for all your stunning looks! Whether it's a trendy backpack or edgy crossbody to complement your modern western looks or a classic leather satchel 
+for your everyday, chic kurta looks! There's a bag in our collection to suit every mood and style.
+</p>
+</div>
+<!-- Gallery Grid -->
+<div class="rw">
+  <div class="column">
+    <div class="ctent">
+      <img src="image/Gallery/g1.jpg" style="width:100%">
+      
+    </div>
+  </div>
+  <div class="column">
+    <div class="ctent">
+    <img src="image/Gallery/g2.jpg" style="width:100%">
+     
+    </div>
+  </div>
+  <div class="column">
+    <div class="ctent">
+    <img src="image/Gallery/g3.jpg" style="width:100%">
+      
+    </div>
+  </div>
+  <div class="column">
+    <div class="ctent">
+    <img src="image/Gallery/g4.jpg"  style="width:100%">
+    
+    </div>
+  </div>
+  
+  <div class="rw">
+  <div class="column">
+    <div class="ctent">
+      <img src="image/Gallery/g5.jpg"  style="width:100%">
+    
+    </div>
+  </div>
+  <div class="column">
+    <div class="ctent">
+    <img src="image/Gallery/g6.jpg"  style="width:100%">
+     
+    </div>
+  </div>
+  <div class="column">
+    <div class="ctent">
+    <img src="image/Gallery/g7.png"  style="width:100%">
+     
+    </div>
+  </div>
+  <div class="column">
+    <div class="ctent">
+    <img src="image/Gallery/g8.png"  style="width:100%">
+     
+    </div>
+  </div>
+  
+  <div class="rw">
+  <div class="column">
+    <div class="ctent">
+      <img src="image/Gallery/g9.png"  style="width:100%">
+     
+      
+    </div>
+  </div>
+  <div class="column">
+    <div class="ctent">
+    <img src="image/Gallery/g10.png"  style="width:100%">
+     
+    </div>
+  </div>
+  <div class="column">
+    <div class="ctent">
+    <img src="image/Gallery/g11.png"  style="width:100%">
+      
+    </div>
+  </div>
+  <div class="column">
+    <div class="ctent">
+    <img src="image/Gallery/g12.jpg"  style="width:100%">
+     
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+
+<div class="ctent">
+  <img src="image/slider images/handbags-new-1._SX1242_CB438832792_.jpg"  style="width:100%">
+  
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-----------------------------------------------------Gallery-End------------------------------>
+<!-----------------------------------------------Products-Start------------------------------------>
+
+
+	<div class="container">
+    <div class="row">
+		<div class="col-lg-12 abc">
+        <div class="messages" id="mn"></div>
+			<div class="ab">Our Products for&nbsp;<span style="color:#FF0"">Men.</span></div>
+			<div class="abcd"><a href="#" style="color:#FFF"><i class="glyphicon glyphicon-home"></i>&nbsp;Home&nbsp;</a>&nbsp;>&nbsp;Products for Men</div>
+		</div>
+	</div>
+    </div>
+<div class="container">
+<div class="row">
+	<div class="col-lg-12">
+		<img class="img-responsive" src="image/slider images/jjjjjjjjjjjjjj.png" width="100%"/>
+	</div>
+</div>
+</div>
+
+<hr>
+<div class="container">
+<div class="main">
+<h2 style="font-family:'Palatino Linotype', 'Book Antiqua', Palatino, serif;color:#11446F;">Our Products</h2>
+
+<div id="myBttnContainer">
+	<div class="row">
+		<div class="col-lg-3 col-xs-6 col-sm-6">
+  			<button class="bttn active" onclick="filterSelection('all')"> Show all</button>
+		</div>
+		<div class="col-lg-3 col-xs-6" col-sm-6> 
+  			<button class="bttn" onclick="filterSelection('backpack')"> Backpack</button>
+		</div>
+		<div class="col-lg-3 col-xs-6 col-sm-6">
+  			<button class="bttn" onclick="filterSelection('duffelbag')"> Duffel Bag</button>
+		</div>
+		<div class="col-lg-3 col-xs-6 col-sm-6">
+  			<button class="bttn" onclick="filterSelection('rucksacks')">Rucksacks</button>
+		</div>
+	</div>
+</div>
+
+
+
+<div class="rrow">
+
+<!-----------------------------Back Pack---------------------------------------------------------->
+
+  <div class="column backpack">
+    <div class="content">
+    <div>
+      <img src="image/images of bags/backpack/benee-1.png" alt="backpack" style="width:100%" class="op">
+      <div class="row">
+         	<div class="col-md-4"></div>
+         	<div class="col-md-4 ">
+        		
+        		<button type="button" class="btn btn-info"><a href="Product Shop/bp1.html" style="color:#FFF"><i class="glyphicon glyphicon-shopping-cart"></i></a></button>
+        	</div>
+        	<div class="col-md-4"></div>
+        </div>
+      </div>
+      <h4><b>Backpack</b></h4>
+      <p>Rs.1000&nbsp;<b><del><b>1200</b></del></b></p>
+      </div>
+  </div>
+  
+   <div class="column backpack">
+    <div class="content">
+      <img src="image/images of bags/backpack/gear-1.png" alt="backpack" style="width:100%" class="op">
+      		<div class="row">
+         	<div class="col-md-4"></div>
+         	<div class="col-md-4 ">
+        		<button type="button" class="btn btn-info"><a href="Product Shop/bp1 - Copy.html" style="color:#FFF"><i class="glyphicon glyphicon-shopping-cart"></i></a></button>
+        	</div>
+        	<div class="col-md-4"></div>
+        </div>
+      <h4><b>Backpack</b></h4>
+      <p>Rs.1000&nbsp;<b><del><b>1200</b></del></b></p>
+    </div>
+  </div>
+  <div class="column backpack">
+    <div class="content">
+    <img src="image/images of bags/backpack/ghost-1.png" alt="backpack" style="width:100%" class="op">
+    
+    		<div class="row">
+         	<div class="col-md-4"></div>
+         	<div class="col-md-4 ">
+        		
+        		<button type="button" class="btn btn-info"><a href="Product Shop/bp1 - Copy (2).html" style="color:#FFF"><i class="glyphicon glyphicon-shopping-cart"></i></a></button>
+        	</div>
+        	<div class="col-md-4"></div>
+        </div>
+     <h4><b>Backpack</b></h4>
+      <p>Rs.1000&nbsp;<b><del><b>1200</b></del></b></p>
+    </div>
+  </div>
+  <div class="column backpack">
+    <div class="content">
+    <img src="image/images of bags/backpack/gods-1.png" alt="backpack" style="width:100%" class="op">
+    		<div class="row">
+         	<div class="col-md-4"></div>
+         	<div class="col-md-4 ">
+        	<button type="button" class="btn btn-info"><a href="Product Shop/bp1 - Copy (3
+            ).html" style="color:#FFF"><i class="glyphicon glyphicon-shopping-cart"></i></a></button>
+        	</div>
+        	<div class="col-md-4"></div>
+        </div>
+      <h4><b>Backpack</b></h4>
+      <p>Rs.1000&nbsp;<b><del><b>1200</b></del></b></p>
+    </div>
+  </div>
+  
+   <div class="column backpack">
+    <div class="content">
+      <img src="image/images of bags/backpack/hilf-1.png" alt="backpack" style="width:100%" class="op">
+      		<div class="row">
+         	<div class="col-md-4"></div>
+         	<div class="col-md-4 ">
+        		
+        		<button type="button" class="btn btn-info"><a href="Product Shop/bp1 - Copy (4).html" style="color:#FFF"><i class="glyphicon glyphicon-shopping-cart"></i></a></button>
+        	</div>
+        	<div class="col-md-4"></div>
+        </div>
+      <h4><b>Backpack</b></h4>
+      <p>Rs.1000&nbsp;<b><del><b>1200</b></del></b></p>
+    </div>
+  </div>
+   <div class="column backpack">
+    <div class="content">
+      <img src="image/images of bags/backpack/nick-1.png" alt="backpack" style="width:100%" class="op">
+      			<div class="row">
+         	<div class="col-md-4"></div>
+         	<div class="col-md-4 ">
+        		
+        		<button type="button" class="btn btn-info"><a href="Product Shop/bp1 - Copy (5).html" style="color:#FFF"><i class="glyphicon glyphicon-shopping-cart"></i></a></button>
+        	</div>
+        	<div class="col-md-4"></div>
+        </div>
+      <h4><b>Backpack</b></h4>
+      <p>Rs.1000&nbsp;<b><del><b>1200</b></del></b></p>
+    </div>
+  </div>
+  <div class="column backpack">
+    <div class="content">
+    <img src="image/images of bags/backpack/puma-1.png" alt="backpack" style="width:100%" class="op">
+    		<div class="row">
+         	<div class="col-md-4"></div>
+         	<div class="col-md-4 ">
+        	<button type="button" class="btn btn-info"><a href="Product Shop/bp1 - Copy (6).html" style="color:#FFF"><i class="glyphicon glyphicon-shopping-cart"></i></a></button>
+        	</div>
+        	<div class="col-md-4"></div>
+        </div>
+     <h4><b>Backpack</b></h4>
+      <p>Rs.1000&nbsp;<b><del><b>1200</b></del></b></p>
+    </div>
+  </div>
+  <div class="column backpack">
+    <div class="content">
+    <img src="image/images of bags/backpack/hill-1.png" alt="backpack" style="width:100%"class="op">
+    
+    			<div class="row">
+         	<div class="col-md-4"></div>
+         	<div class="col-md-4 ">
+        		<button type="button" class="btn btn-info"><a href="Product Shop/bp1 - Copy (7).html" style="color:#FFF"><i class="glyphicon glyphicon-shopping-cart"></i></a></button>
+        	</div>
+        	<div class="col-md-4"></div>
+        </div>
+      <h4><b>Backpack</b></h4>
+      <p>Rs.1000&nbsp;<b><del><b>1200</b></del></b></p>
+    </div>
+  </div>
+  
+  
+  <!-----------------------------BackPack-End---------------------------------------------------------->
+   
+   
+   
+   <!---------------------------------------------Duffelbag-Start------------------------------------------> 
+  <div class="column duffelbag">
+    <div class="content">
+      <img src="image/images of bags/duffelbag/adidas-1.png" alt="duffelbag" style="width:100%" class="op">
+      
+      		<div class="row">
+         	<div class="col-md-4"></div>
+         	<div class="col-md-4 ">
+        		<button type="button" class="btn btn-info"><a href="Product Shop/df1.html" style="color:#FFF"><i class="glyphicon glyphicon-shopping-cart"></i></a></button>
+        	</div>
+        	<div class="col-md-4"></div>
+        </div>
+      <h4><b>Duffel Bag</b></h4>
+      <p>Rs.1500&nbsp;<b><del><b>1800</b></del></b></p>
+    </div>
+  </div>
+
+  <div class="column duffelbag">
+    <div class="content">
+    <img src="image/images of bags/duffelbag/benetton-1.png" alt="duffelbag" style="width:100%" class="op">
+    			<div class="row">
+         	<div class="col-md-4"></div>
+         	<div class="col-md-4 ">
+        		<button type="button" class="btn btn-info"><a href="Product Shop/df1 - Copy.html" style="color:#FFF"><i class="glyphicon glyphicon-shopping-cart"></i></a></button>
+        	</div>
+        	<div class="col-md-4"></div>
+        </div>
+      <h4><b>Duffel Bag</b></h4>
+      <p>Rs.1500&nbsp;<b><del><b>1800</b></del></b></p>
+    </div>
+  </div>
+  <div class="column duffelbag">
+    <div class="content">
+    <img src="image/images of bags/duffelbag/hrx-1.png" alt="duffelbag" style="width:100%" class="op">
+    		<div class="row">
+         	<div class="col-md-4"></div>
+         	<div class="col-md-4 ">
+        		<button type="button" class="btn btn-info"><a href="Product Shop/df1 - Copy (2).html" style="color:#FFF"><i class="glyphicon glyphicon-shopping-cart"></i></a></button>
+        	</div>
+        	<div class="col-md-4"></div>
+        </div>
+      <h4><b>Duffel Bag</b></h4>
+      <p>Rs.1500&nbsp;<b><del><b>1800</b></del></b></p>
+    </div>
+  </div>
+   <div class="column duffelbag">
+    <div class="content">
+    <img src="image/images of bags/duffelbag/puma-1.png" alt="duffelbag" style="width:100%" class="op">
+    		<div class="row">
+         <div class="col-md-4"></div>
+         	<div class="col-md-4 ">
+        		<button type="button" class="btn btn-info"><a href="Product Shop/df1 - Copy (3).html" style="color:#FFF"><i class="glyphicon glyphicon-shopping-cart"></i></a></button>
+        	</div>
+        	<div class="col-md-4"></div>
+        </div>
+      <h4><b>Duffel Bag</b></h4>
+      <p>Rs.1500&nbsp;<b><del><b>1800</b></del></b></p>
+    </div>
+  </div>
+   <div class="column duffelbag">
+    <div class="content">
+      <img src="image/images of bags/duffelbag/nick-1.png" alt="duffelbag" style="width:100%" class="op">
+      		<div class="row">
+         	<div class="col-md-4"></div>
+         	<div class="col-md-4 ">
+        		<button type="button" class="btn btn-info"><a href="Product Shop/df1 - Copy (4).html" style="color:#FFF"><i class="glyphicon glyphicon-shopping-cart"></i></a></button>
+        	</div>
+        	<div class="col-md-4"></div>
+        </div>
+      <h4><b>Duffel Bag</b></h4>
+      <p>Rs.1500&nbsp;<b><del><b>1800</b></del></b></p>
+    </div>
+  </div>
+
+  <div class="column duffelbag">
+    <div class="content">
+    <img src="image/images of bags/duffelbag/rebook-1.png" alt="duffelbag" style="width:100%" class="op">
+    		<div class="row">
+         <div class="col-md-4"></div>
+         	<div class="col-md-4 ">
+        		<button type="button" class="btn btn-info"><a href="Product Shop/df1 - Copy (5).html" style="color:#FFF"><i class="glyphicon glyphicon-shopping-cart"></i></a></button>
+        	</div>
+        	<div class="col-md-4"></div>
+        </div>
+      <h4><b>Duffel Bag</b></h4>
+      <p>Rs.1500&nbsp;<b><del><b>1800</b></del></b></p>
+    </div>
+  </div>
+  <div class="column duffelbag">
+    <div class="content">
+    <img src="image/images of bags/duffelbag/wildcraft-1.png" alt="duffelbag" style="width:100%" class="op">
+    		<div class="row">
+         	<div class="col-md-4"></div>
+         	<div class="col-md-4 ">
+        		<button type="button" class="btn btn-info"><a href="Product Shop/df1 - Copy (6).html" style="color:#FFF"><i class="glyphicon glyphicon-shopping-cart"></i></a></button>
+        	</div>
+        	<div class="col-md-4"></div>
+        </div>
+      <h4><b>Duffel Bag</b></h4>
+      <p>Rs.1500&nbsp;<b><del><b>1800</b></del></b></p>
+    </div>
+  </div>
+   <div class="column duffelbag">
+    <div class="content">
+    <img src="image/images of bags/duffelbag/yellu-1.png" alt="duffelbag" style="width:100%" class="op">
+    		<div class="row">
+         	<div class="col-md-4"></div>
+         	<div class="col-md-4 ">
+        	<button type="button" class="btn btn-info"><a href="Product Shop/df1 - Copy (7).html" style="color:#FFF"><i class="glyphicon glyphicon-shopping-cart"></i></a></button>
+        	</div>
+        	<div class="col-md-4"></div>
+        </div>
+      <h4><b>Duffel Bag</b></h4>
+      <p>Rs.1500&nbsp;<b><del><b>1800</b></del></b></p>
+    </div>
+  </div>
+<!------------------------------------------------------Duffelbag-End------------------------------------------>
+
+  <!---------------------------------------------------Rucksacks-Start------------------------>
+  <div class="column rucksacks">
+    <div class="content">
+      <img src="image/images of bags/Rucksacks/golden-1.png" alt="rucksacks" style="width:100%" class="op">
+      		<div class="row">
+         <div class="col-md-4"></div>
+         	<div class="col-md-4 ">
+        		<button type="button" class="btn btn-info"><a href="Product Shop/rs1.html" style="color:#FFF"><i class="glyphicon glyphicon-shopping-cart"></i></a></button>
+        	</div>
+        	<div class="col-md-4"></div>
+        </div>
+      <h4><b>Rucksacks Bag</b></h4>
+      <p>Rs.2500&nbsp;<b><del><b>2700</b></del></b></p>
+    </div>
+  </div>
+  <div class="column rucksacks">
+    <div class="content">
+    <img src="image/images of bags/Rucksacks/gray-1.png" alt="rucksacks" style="width:100%" class="op">
+    		<div class="row">
+         	<div class="col-md-4"></div>
+         	<div class="col-md-4 ">
+        	<button type="button" class="btn btn-info"><a href="Product Shop/rs1 - Copy.html" style="color:#FFF"><i class="glyphicon glyphicon-shopping-cart"></i></a></button>
+        	</div>
+        	<div class="col-md-4"></div>
+        </div>
+      <h4><b>Rucksacks Bag</b></h4>
+      <p>Rs.2500&nbsp;<b><del><b>2700</b></del></b></p>
+    </div>
+  </div>
+  
+  <div class="column rucksacks">
+    <div class="content">
+    <img src="image/images of bags/Rucksacks/green-1.png" alt="rucksacks" style="width:100%" class="op">
+    		<div class="row">
+         	<div class="col-md-4"></div>
+         	<div class="col-md-4 ">
+        		<button type="button" class="btn btn-info"><a href="Product Shop/rs1 - Copy (2).html" style="color:#FFF"><i class="glyphicon glyphicon-shopping-cart"></i></a></button>
+        	</div>
+        	<div class="col-md-4"></div>
+        </div>
+      <h4><b>Rucksacks Bag</b></h4>
+      <p>Rs.2500&nbsp;<b><del><b>2700</b></del></b></p>
+    </div>
+  </div>
+  <div class="column rucksacks">
+    <div class="content">
+    <img src="image/images of bags/Rucksacks/mounttrack-1.png" alt="rucksacks" style="width:100%" class="op">
+    			<div class="row">
+         	 	<div class="col-md-4"></div>
+         	<div class="col-md-4 ">
+        		<button type="button" class="btn btn-info"><a href="Product Shop/rs1 - Copy (3).html" style="color:#FFF"><i class="glyphicon glyphicon-shopping-cart"></i></a></button>
+        	</div>
+        	<div class="col-md-4"></div>
+        </div>
+      <h4><b>Rucksacks Bag</b></h4>
+      <p>Rs.2500&nbsp;<b><del><b>2700</b></del></b></p>
+    </div>
+  </div>
+    <div class="column rucksacks">
+    <div class="content">
+      <img src="image/images of bags/Rucksacks/impuls-1.png" alt="rucksacks" style="width:100%" class="op">
+      
+      		<div class="row">
+         	 	<div class="col-md-4"></div>
+         	<div class="col-md-4 ">
+        		<button type="button" class="btn btn-info"><a href="Product Shop/rs1 - Copy (4).html" style="color:#FFF"><i class="glyphicon glyphicon-shopping-cart"></i></a></button>
+        	</div>
+        	<div class="col-md-4"></div>
+        </div>
+      <h4><b>Rucksacks Bag</b></h4>
+      <p>Rs.2500&nbsp;<b><del><b>2700</b></del></b></p>
+    </div>
+  </div>
+  <div class="column rucksacks">
+    <div class="content">
+    <img src="image/images of bags/Rucksacks/red-1.png" alt="rucksacks" style="width:100%" class="op">
+    		<div class="row">
+         	<div class="col-md-4"></div>
+         	<div class="col-md-4 ">
+        		<button type="button" class="btn btn-info"><a href="Product Shop/rs1 - Copy (5).html" style="color:#FFF"><i class="glyphicon glyphicon-shopping-cart"></i></a></button>
+        	</div>
+        	<div class="col-md-4"></div>
+        </div>
+      <h4><b>Rucksacks Bag</b></h4>
+      <p>Rs.2500&nbsp;<b><del><b>2700</b></del></b></p>
+    </div>
+  </div>
+  
+  <div class="column rucksacks">
+    <div class="content">
+    <img src="image/images of bags/Rucksacks/wildcraft-1.png" alt="rucksacks" style="width:100%" class="op">
+    		<div class="row">
+        	<div class="col-md-4"></div>
+         	<div class="col-md-4 ">
+        	<button type="button" class="btn btn-info"><a href="Product Shop/rs1 - Copy (6).html" style="color:#FFF"><i class="glyphicon glyphicon-shopping-cart"></i></a></button>
+        	</div>
+        	<div class="col-md-4"></div>
+        </div>
+      <h4><b>Rucksacks Bag</b></h4>
+      <p>Rs.2500&nbsp;<b><del><b>2700</b></del></b></p>
+    </div>
+  </div>
+  <div class="column rucksacks">
+    <div class="content">
+    <img src="image/images of bags/Rucksacks/redbull-1.png" alt="rucksacks" style="width:100%" class="op">
+    			<div class="row">
+         	<div class="col-md-4"></div>
+         	<div class="col-md-4 ">
+        	<button type="button" class="btn btn-info"><a href="Product Shop/rs1 - Copy (7).html" style="color:#FFF"><i class="glyphicon glyphicon-shopping-cart"></i></a></button>
+        	</div>
+        	<div class="col-md-4"></div>
+        </div>
+      <h4><b>Rucksacks Bag</b></h4>
+      <p>Rs.2500&nbsp;<b><del><b>2700</b></del></b></p>
+    </div>
+  </div>
+  <!------------------------------------------Rucksacks-End---------------------------------------->
+ </div> 
+<!-- END GRID -->
+</div>
+
+<!-- END MAIN -->
+</div>
+
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("column");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBttnContainer");
+var btns = btnContainer.getElementsByClassName("bttn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+
+
+
+
+
+<!-----------------------------------------------Products-End-------------------------------------->
+
+<!---------------------------for women------------------------------------------------>
+<!-----------------------------------------------Products-Start------------------------------------>
+
+<div class="container">
+<div class="row">
+		<div class="col-lg-12 abc">
+        <div class="messages" id="wmn"></div>
+			<div class="ab">Our Products for&nbsp;<span style="color:#FF0"">Women.</span></div>
+			<div class="abcd"><a href="#" style="color:#FFF"><i class="glyphicon glyphicon-home"></i>&nbsp;Home&nbsp;</a>&nbsp;>&nbsp;Products for Women</div>
+		</div>
+	</div>
+    </div>
+<div class="container">
+<div class="row">
+<div class="col-lg-12">
+<img class="img-responsive" src="image/slider images/Untitled 1.png" />
+</div>
+</div>
+</div>
+
+<hr>
+<div class="container">
+<div class="main">
+<h2 style="font-family:'Palatino Linotype', 'Book Antiqua', Palatino, serif;color:#11446F;">Our Products</h2>
+
+<div id="myBtnContainer">
+<div class="row">
+<div class="col-lg-3 col-xs-6 col-sm-6">
+  <button class="bttn active" onclick="filterSelection('all')"> Show all</button>
+</div>
+<div class="col-lg-3 col-xs-6 col-sm-6">
+  <button class="bttn" onclick="filterSelection('slingbag')">Sling Bag</button>
+</div>
+<div class="col-lg-3 col-xs-6 col-sm-6">
+  <button class="bttn" onclick="filterSelection('trollybag')">Trolly Bag</button>
+</div>
+<div class="col-lg-3 col-xs-6 col-sm-6">
+  <button class="bttn" onclick="filterSelection('clutchbag')">Clutch Bag</button>
+</div>
+</div>
+</div>
+
+<!-- Portfolio Gallery Grid -->
+<div class="rrow">
+
+<!----------------------------------------------------Slingbag-Start--------------------------------------->
+  <div class="column slingbag">
+    <div class="content">
+      <img src="image/images of bags/Sling Bags/benetton-1.png" alt="slingbag" style="width:100%" class="op">
+      		<div class="row">
+         	 	<div class="col-md-4"></div>
+         	<div class="col-md-4 ">
+        	<button type="button" class="btn btn-info"><a href="Product Shop/sl1.html" style="color:#FFF"><i class="glyphicon glyphicon-shopping-cart"></i></a></button>
+        	</div>
+        	<div class="col-md-4"></div>
+        </div>
+      <h4><b>Sling Bag</b></h4>
+      <p>Rs.1200&nbsp;<b><del><b>1500</b></del></b></p>
+    </div>
+  </div>
+  <div class="column slingbag">
+    <div class="content">
+    <img src="image/images of bags/Sling Bags/capres-1.png" alt="slingbag" style="width:100%" class="op">
+    		<div class="row">
+         	 	<div class="col-md-4"></div>
+         	<div class="col-md-4 ">
+        	<button type="button" class="btn btn-info"><a href="Product Shop/sl1 - Copy.html" style="color:#FFF"><i class="glyphicon glyphicon-shopping-cart"></i></a></button>
+        	</div>
+        	<div class="col-md-4"></div>
+        </div>
+      <h4><b>Sling Bag</b></h4>
+      <p>Rs.1200&nbsp;<b><del><b>1500</b></del></b></p>
+    </div>
+  </div>
+  
+  <div class="column slingbag">
+    <div class="content">
+    <img src="image/images of bags/Sling Bags/dress-1.png" alt="slingbag" style="width:100%" class="op">
+    
+    		<div class="row">
+         	 	<div class="col-md-4"></div>
+         	<div class="col-md-4 ">
+        		
+        		<button type="button" class="btn btn-info"><a href="Product Shop/sl1 - Copy (2).html" style="color:#FFF"><i class="glyphicon glyphicon-shopping-cart"></i></a></button>
+        	</div>
+        	<div class="col-md-4"></div>
+        </div>
+      <h4><b>Sling Bag</b></h4>
+      <p>Rs.1200&nbsp;<b><del><b>1500</b></del></b></p>
+    </div>
+  </div>
+  <div class="column slingbag">
+    <div class="content">
+    <img src="image/images of bags/Sling Bags/lafille-1.png" alt="slingbag" style="width:100%" class="op">
+    		<div class="row">
+         	 	<div class="col-md-4"></div>
+         	<div class="col-md-4 ">
+        	<button type="button" class="btn btn-info"><a href="Product Shop/sl1 - Copy (3).html" style="color:#FFF"><i class="glyphicon glyphicon-shopping-cart"></i></a></button>
+        	</div>
+        	<div class="col-md-4"></div>
+        </div>
+      <h4><b>Sling Bag</b></h4>
+      <p>Rs.1200&nbsp;<b><del><b>1500</b></del></b></p>
+    </div>
+  </div class="op">
+  
+   <div class="column slingbag">
+    <div class="content">
+      <img src="image/images of bags/Sling Bags/legal-1.png" alt="slingbag" style="width:100%"class="op">
+      		<div class="row">
+         	 	<div class="col-md-4"></div>
+         	<div class="col-md-4 ">
+        	<button type="button" class="btn btn-info"><a href="Product Shop/sl1 - Copy (4).html" style="color:#FFF"><i class="glyphicon glyphicon-shopping-cart"></i></a></button>
+        	</div>
+        	<div class="col-md-4"></div>
+        </div>
+      <h4><b>Sling Bag</b></h4>
+      <p>Rs.1200&nbsp;<b><del><b>1500</b></del></b></p>
+    </div>
+  </div>
+  <div class="column slingbag">
+    <div class="content">
+    <img src="image/images of bags/Sling Bags/lion-1.png" alt="slingbag" style="width:100%" class="op" >
+    		<div class="row">
+         	 	<div class="col-md-4"></div>
+         	<div class="col-md-4 ">
+        	<button type="button" class="btn btn-info"><a href="Product Shop/sl1 - Copy (5).html" style="color:#FFF"><i class="glyphicon glyphicon-shopping-cart"></i></a></button>
+        	</div>
+        	<div class="col-md-4"></div>
+        </div>
+    
+      <h4><b>Sling Bag</b></h4>
+      <p>Rs.1200&nbsp;<b><del><b>1500</b></del></b></p>
+    </div>
+  </div>
+  
+  <div class="column slingbag">
+    <div class="content">
+    <img src="image/images of bags/Sling Bags/vivin-1.png" alt="slingbag" style="width:100%" class="op">
+    		<div class="row">
+         	 	<div class="col-md-4"></div>
+         	<div class="col-md-4 ">
+        	<button type="button" class="btn btn-info"><a href="Product Shop/sl1 - Copy (6).html" style="color:#FFF"><i class="glyphicon glyphicon-shopping-cart"></i></a></button>
+        	</div>
+        	<div class="col-md-4"></div>
+        </div>
+     <h4><b>Sling Bag</b></h4>
+      <p>Rs.1200&nbsp;<b><del><b>1500</b></del></b></p>
+    </div>
+  </div>
+  <div class="column slingbag">
+    <div class="content">
+    <img src="image/images of bags/Sling Bags/sollu-1.png" alt="slingbag" style="width:100%" class="op">
+    
+    		<div class="row">
+         	 	<div class="col-md-4"></div>
+         	<div class="col-md-4 ">
+        	<button type="button" class="btn btn-info"><a href="Product Shop/sl1 - Copy (7
+            ).html" style="color:#FFF"><i class="glyphicon glyphicon-shopping-cart"></i></a></button>
+        	</div>
+        	<div class="col-md-4"></div>
+        </div>
+      <h4><b>Sling Bag</b></h4>
+      <p>Rs.1200&nbsp;<b><del><b>1500</b></del></b></p>
+    </div>
+  </div>
+  <!----------------------------------------------Slingbag-End--------------------------------->
+  
+  <!---------------------------------------Clutchbag-Start------------------------------------------->
+  <div class="column clutchbag">
+    <div class="content">
+      <img src="image/images of bags/Clutches bags/barry-1.png" alt="clutchbag" style="width:100%" class="op">
+      		<div class="row">
+         	 	<div class="col-md-4"></div>
+         	<div class="col-md-4 ">
+        		<button type="button" class="btn btn-info"><a href="Product Shop/bp1.html" style="color:#FFF"><i class="glyphicon glyphicon-shopping-cart"></i></a></button>
+        	</div>
+        	<div class="col-md-4"></div>
+        </div>
+      <h4><b>Clutch Bag</b></h4>
+      <p>Rs.750&nbsp;<b><del><b>1000</b></del></b></p>
+    </div>
+  </div>
+  <div class="column clutchbag">
+    <div class="content">
+    <img src="image/images of bags/Clutches bags/diwaah-1.png" alt="clutchbag" style="width:100%" class="op">
+    		<div class="row">
+            <div class="col-md-4"></div>
+         	<div class="col-md-4 ">
+        		<button type="button" class="btn btn-info"><a href="Product Shop/bp1.html" style="color:#FFF"><i class="glyphicon glyphicon-shopping-cart"></i></a></button>
+        	</div>
+        	<div class="col-md-4"></div>
+        </div>
+      <h4><b>Clutch Bag</b></h4>
+      <p>Rs.750&nbsp;<b><del><b>1000</b></del></b></p>
+    </div>
+  </div>
+  
+  <div class="column clutchbag">
+    <div class="content">
+    <img src="image/images of bags/Clutches bags/dree-1.png" alt="clutchbag" style="width:100%" class="op">
+    		<div class="row">
+            <div class="col-md-4"></div>
+         	<div class="col-md-4 ">
+        		<button type="button" class="btn btn-info"><a href="Product Shop/bp1.html" style="color:#FFF"><i class="glyphicon glyphicon-shopping-cart"></i></a></button>
+        	</div>
+        	<div class="col-md-4"></div>
+        </div>
+      <h4><b>Clutch Bag</b></h4>
+      <p>Rs.750&nbsp;<b><del><b>1000</b></del></b></p>
+    </div>
+  </div>
+  <div class="column clutchbag">
+    <div class="content">
+    <img src="image/images of bags/Clutches bags/dressbarry-1.png" alt="clutchbag" style="width:100%" class="op">
+    		<div class="row">
+            <div class="col-md-4"></div>
+         	<div class="col-md-4 ">
+        	<button type="button" class="btn btn-info"><a href="Product Shop/bp1.html" style="color:#FFF"><i class="glyphicon glyphicon-shopping-cart"></i></a></button>
+        	</div>
+        	<div class="col-md-4"></div>
+        </div>
+      <h4><b>Clutch Bag</b></h4>
+      <p>Rs.750&nbsp;<b><del><b>1000</b></del></b></p>
+    </div>
+  </div>
+  
+    <div class="column clutchbag">
+    <div class="content">
+      <img src="image/images of bags/Clutches bags/esbeda-1.png" alt="clutchbag" style="width:100%" class="op">
+      		<div class="row">
+            <div class="col-md-4"></div>
+         	<div class="col-md-4 ">
+        	<button type="button" class="btn btn-info"><a href="Product Shop/bp1.html" style="color:#FFF"><i class="glyphicon glyphicon-shopping-cart"></i></a></button>
+        	</div>
+        	<div class="col-md-4"></div>
+        </div>
+      <h4><b>Clutch Bag</b></h4>
+      <p>Rs.750&nbsp;<b><del><b>1000</b></del></b></p>
+    </div>
+  </div>
+  <div class="column clutchbag">
+    <div class="content">
+    <img src="image/images of bags/Clutches bags/mango-1.png" alt="clutchbag" style="width:100%" class="op">
+    		<div class="row">
+            <div class="col-md-4"></div>
+         	<div class="col-md-4 ">
+        		<button type="button" class="btn btn-info"><a href="Product Shop/bp1.html" style="color:#FFF"><i class="glyphicon glyphicon-shopping-cart"></i></a></button>
+        	</div>
+        	<div class="col-md-4"></div>
+        </div>
+      <h4><b>Clutch Bag</b></h4>
+      <p>Rs.750&nbsp;<b><del><b>1000</b></del></b></p>
+    </div>
+  </div>
+  
+  <div class="column clutchbag">
+    <div class="content">
+    <img src="image/images of bags/Clutches bags/tommy-1.png" alt="clutchbag" style="width:100%" class="op">
+				<div class="row">
+         	<div class="col-md-4"></div>
+         	<div class="col-md-4 ">
+        	<button type="button" class="btn btn-info"><a href="Product Shop/bp1.html" style="color:#FFF"><i class="glyphicon glyphicon-shopping-cart"></i></a></button>
+        	</div>
+        	<div class="col-md-4"></div>
+        </div>
+      <h4><b>Clutch Bag</b></h4>
+      <p>Rs.750&nbsp;<b><del><b>1000</b></del></b></p>
+    </div>
+  </div>
+  <div class="column clutchbag">
+    <div class="content">
+    <img src="image/images of bags/Clutches bags/tullip-1.png" alt="clutchbag" style="width:100%" class="op">
+    			<div class="row">
+                <div class="col-md-4"></div>
+         	<div class="col-md-4 ">
+        		<button type="button" class="btn btn-info"><a href="Product Shop/bp1.html" style="color:#FFF"><i class="glyphicon glyphicon-shopping-cart"></i></a></button>
+        	</div>
+        	<div class="col-md-4"></div>
+        </div>
+      <h4><b>Clutch Bag</b></h4>
+      <p>Rs.750&nbsp;<b><del><b>1000</b></del></b></p>
+    </div>
+  </div>
+  <!--------------------------------------Clutchbag-End------------------------------------->
+  
+  
+  <!----------------------------------------trollybag-Start-------------------------------------->
+  <div class="column trollybag">
+    <div class="content">
+      <img src="image/images of bags/trollybag/bagr-1.png" alt="trollybag" style="width:100%" class="op">
+      			<div class="row">
+                <div class="col-md-4"></div>
+         	<div class="col-md-4 ">
+        		<button type="button" class="btn btn-info"><a href="Product Shop/bp1.html" style="color:#FFF"><i class="glyphicon glyphicon-shopping-cart"></i></a></button>
+        	</div>
+        	<div class="col-md-4"></div>
+        </div>
+      <h4><b>Trolly Bag</b></h4>
+      <p>Rs.2800&nbsp;<b><del><b>3000</b></del></b></p>
+    </div>
+  </div>
+  <div class="column trollybag">
+    <div class="content">
+    <img src="image/images of bags/trollybag/calvin-1.png" alt="trollybag" style="width:100%" class="op">
+    			<div class="row">
+                <div class="col-md-4"></div>
+         	<div class="col-md-4 ">
+        		<button type="button" class="btn btn-info"><a href="Product Shop/bp1.html" style="color:#FFF"><i class="glyphicon glyphicon-shopping-cart"></i></a></button>
+        	</div>
+        	<div class="col-md-4"></div>
+        </div>
+      <h4><b>Trolly Bag</b></h4>
+      <p>Rs.2800&nbsp;<b><del><b>3000</b></del></b></p>
+    </div>
+  </div>
+  
+  <div class="column trollybag">
+    <div class="content">
+    <img src="image/images of bags/trollybag/cat-1.png" alt="trollybag" style="width:100%" class="op">
+    		<div class="row">
+            <div class="col-md-4"></div>
+         	<div class="col-md-4 ">
+        		<button type="button" class="btn btn-info"><a href="Product Shop/bp1.html" style="color:#FFF"><i class="glyphicon glyphicon-shopping-cart"></i></a></button>
+        	</div>
+        	<div class="col-md-4"></div>
+        </div>
+      <h4><b>Trolly Bag</b></h4>
+      <p>Rs.2800&nbsp;<b><del><b>3000</b></del></b></p>
+    </div>
+  </div>
+  <div class="column trollybag">
+    <div class="content">
+    <img src="image/images of bags/trollybag/esbeda-1.png" alt="trollybag" style="width:100%" class="op">
+    			<div class="row">
+                <div class="col-md-4"></div>
+         	<div class="col-md-4 ">
+        	<button type="button" class="btn btn-info"><a href="Product Shop/bp1.html" style="color:#FFF"><i class="glyphicon glyphicon-shopping-cart"></i></a></button>
+        	</div>
+        	<div class="col-md-4"></div>
+        </div>
+      <h4><b>Trolly Bag</b></h4>
+      <p>Rs.2800&nbsp;<b><del><b>3000</b></del></b></p>
+    </div>
+  </div>
+  
+    <div class="column trollybag">
+    <div class="content">
+      <img src="image/images of bags/trollybag/national-1.png" alt="trollybag" style="width:100%" class="op">
+      			<div class="row">
+                <div class="col-md-4"></div>
+         <div class="col-md-4 ">
+        	<button type="button" class="btn btn-info"><a href="Product Shop/bp1.html" style="color:#FFF"><i class="glyphicon glyphicon-shopping-cart"></i></a></button>
+        	</div>
+        	<div class="col-md-4"></div>
+        </div>
+      <h4><b>Trolly Bag</b></h4>
+      <p>Rs.2800&nbsp;<b><del><b>3000</b></del></b></p>
+    </div>
+  </div>
+  <div class="column trollybag">
+    <div class="content">
+    <img src="image/images of bags/trollybag/safari-1.png" alt="trollybag" style="width:100%" class="op">
+    		<div class="row">
+            <div class="col-md-4"></div>
+         	<div class="col-md-4 ">
+        		<button type="button" class="btn btn-info"><a href="Product Shop/bp1.html" style="color:#FFF"><i class="glyphicon glyphicon-shopping-cart"></i></a></button>
+        	</div>
+        	<div class="col-md-4"></div>
+        </div>
+      <h4><b>Trolly Bag</b></h4>
+      <p>Rs.2800&nbsp;<b><del><b>3000</b></del></b></p>
+    </div>
+  </div>
+  
+  <div class="column trollybag">
+    <div class="content">
+    <img src="image/images of bags/trollybag/united-1.png" alt="trollybag" style="width:100%" class="op">
+    			<div class="row">
+                <div class="col-md-4"></div>
+         	<div class="col-md-4 ">
+        		<button type="button" class="btn btn-info"><a href="Product Shop/bp1.html" style="color:#FFF"><i class="glyphicon glyphicon-shopping-cart"></i></a></button>
+        	</div>
+        	<div class="col-md-4"></div>
+        </div>
+      <h4><b>Trolly Bag</b></h4>
+      <p>Rs.2800&nbsp;<b><del><b>3000</b></del></b></p>
+    </div>
+  </div>
+  <div class="column trollybag">
+    <div class="content">
+    <img src="image/images of bags/trollybag/saffari-1.png" alt="trollybag" style="width:100%" class="op">
+    			<div class="row">
+                <div class="col-md-4"></div>
+         	<div class="col-md-4 ">
+        		<button type="button" class="btn btn-info"><a href="Product Shop/bp1.html" style="color:#FFF"><i class="glyphicon glyphicon-shopping-cart"></i></a></button>
+        	</div>
+        	<div class="col-md-4"></div>
+        </div>
+      <h4><b>Trolly Bag</b></h4>
+      <p>Rs.2800&nbsp;<b><del><b>3000</b></del></b></p>
+    </div>
+  </div>
+  <!--------------------------------------------tollybag-End--------------------------------------------->
+ </div> 
+<!-- END GRID -->
+</div>
+
+<!-- END MAIN -->
+</div>
+
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("column");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("bttn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+
+
+
+
+
+<!-----------------------------------------------Products-End-------------------------------------->
+
+
+<!----------------------------------------------------ContctUs-Start-------------------------------------------------->
+<div class="container">
+	<div class="row">
+		<div class="col-lg-12 abc">
+        <div class="messages" id="cts"></div>
+			<div class="ab">Please feel free to give your inquiry in the form below.<span style="color:#FF0"">We will reply you in 24 hours.</span></div>
+			<div class="abcd"><a href="#" style="color:#FFF"><i class="glyphicon glyphicon-home"></i>&nbsp;Home&nbsp;</a>&nbsp;>&nbsp;Contact Us</div>
+		</div>
+	</div>
+
+
+    <div class="row">
+		<div class="col-md-12">
+			<img src="image/cntctslide/1567763594540_969008.jpg" class="img-responsive" id="cts"/>
+		</div>
+	</div>
+	
+
+    
+    <div>
+    	<form id="contact-form" method="post" action="contact.php" role="form">
+
+    
+
+    <div class="controls">
+		    <div class="row">
+		<div class="col-lg-12">
+			<h1 class="text-center" style="font-family:Georgia, 'Times New Roman', Times, serif;color:#11446F;"><b>Contact Us</b> </h1>
+			<hr style="color:black;" />
+		</div>
+	</div>
+       
+        <div class="row">
+        	<div class="col-md-6">
+           
+
+            </div>
+        		<div class="col-md-6">
+                	<div class="form-group">
+                    	<label for="form_name" style="color:#000">Firstname *</label>
+                    		<input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                    			<div class="help-block with-errors"></div>
+                	</div>
+            	</div>
+            
+         </div>
+         
+         <div class="row" >
+           <div class="col-md-6">
+           <h1 style="color:#36C; font-family:'MS Serif', 'New York', serif; font-size:40px">PLEASE DO GET IN TOUCH!</h1>
+           </div>
+           		<div class="col-md-6">
+                	<div class="form-group">
+                    	<label for="form_lastname" style="color:#000">Lastname *</label>
+                    		<input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                    			<div class="help-block with-errors"></div>
+                	</div>
+            	</div>
+            
+        </div>
+        
+        <div class="row">
+        	 <div class="col-md-6">
+             <p style="font-size:16px;">We'd love to hear from you - please use the form to send us your message or ideas. Or simply pop in for a cup of fresh tea and a cookie:</p>
+             	
+             </div>
+             	<div class="col-md-6">
+                	<div class="form-group">
+                    	<label for="form_email" style="color:#000">Email *</label>
+                    		<input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                    			<div class="help-block with-errors"></div>
+                	</div>
+            	</div>
+             
+         </div>
+         
+         
+         <div class="row">
+			 <div class="col-md-6">
+              	<h3 style="font-family:'Trebuchet MS', Arial, Helvetica, sans-serif"><b style="color:#F00">BAGBAG</b> Retail Head Office:</h3>
+            
+            <h4>3th Floor – Progressive Centre, Karachi, Pakistan</h4>
+             	
+             </div>	            
+            	<div class="col-md-6">
+                	<div class="form-group">
+                    	<label for="form_phone" style="color:#000">Phone</label>
+                    		<input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone">
+                    			<div class="help-block with-errors"></div>
+                	</div>
+            	</div>
+              
+        </div>
+        
+        
+        <div class="row">
+         <div class="col-md-6">
+         	 
+         </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_message" style="color:#000">Message *</label>
+                    	<textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please,leave us a message."></textarea>
+                    		<div class="help-block with-errors"></div>
+                </div>
+            </div>
+           
+         </div>
+         
+         <div class="row"  >
+         	 <div class="col-md-8"></div>
+            	<div class="col-md-4">
+                	<input type="submit" class="btn btn-danger btn-send" value="Send message"  />
+        	  	</div>
+              
+        </div>
+       
+    </div>
+
+
+</form>
+    </div>
+</div>
+<!-------------------------------------------------ContctUs-End----------------------------------------------------->
+<!--------------------------sitemap------------------------------------->
+
+<div class="container">
+	<div class="row">
+		<div class="col-lg-12 abc">
+        <div class="messages" id="map"></div>
+			<div class="ab">Site<span style="color:#FF0"">Map.</span></div>
+			<div class="abcd"><a href="#" style="color:#FFF"><i class="glyphicon glyphicon-home"></i>&nbsp;Home&nbsp;</a>&nbsp;>&nbsp;SiteMap</div>
+		</div>
+	</div>
+    
+    
+    <div class="row">
+    <div class="col-lg-12">
+    <img class="img-responsive" src="image/SITEMAP.png"/>
+    </div>
+    </div>
+    </div>
+    <!--------------------------------site Map end-------------------------------------->
+
+<!--------------------------------About us start--------------------------------->
+	<div class="container">
+   <div class="row">
+		<div class="col-lg-12 abc">
+        <div class="messages" id="abt"></div>
+			<div class="ab">About.<span style="color:#FF0"">Us.</span></div>
+			<div class="abcd"><a href="#" style="color:#FFF"><i class="glyphicon glyphicon-home"></i>&nbsp;Home&nbsp;</a>&nbsp;>&nbsp;About Us</div>
+		</div>
+	</div>
+ 
+	<div class="row">
+	<div class="col-lg-12"  style="border:groove;">
+	<img src="image/slider images/pexels-photo-1520124.jpeg" class="img-responsive" height="300" style="border:ridge">
+	</div>
+	</div>
+    <div class="row">
+    <div class="col-lg-2" ></div>
+    <div class="col-lg-8" style="font-family:'Palatino Linotype', 'Book Antiqua', Palatino, serif;">
+    <h1 style="font-family:'Palatino Linotype', 'Book Antiqua', Palatino, serif;" class="text-center">BAGBAG</h1>
+    <p>Established in 2004, BAGBAG Manufacturing Ltd. is a top promotional bags manufacturer based in Xiamen, China. Our focus is to build long-term partnerships with our customers and bring profitable advancement through cost effective manufacturing and cutting edge product development.</p>
+    <p>We have successfully delivered millions upon millions of promotional bags to the USA and the EU, from cooler bags, tote bags, nonwoven bags and drawstring bags, to backpacks, computer bags, and the quantity goes on and on. With our competitive prices and variety of custom products, we produce and design bags for several promotional companies of the ASI TOP 40 SUPPLIERS in the USA.</p>
+    <p>As you must have noticed, more and more companies that claim to specialize in bags make and popping up at industry trade shows,Alibaba.com, GLOBALSOURCES and other B2B websites. Here are just some of ways we stand out from those other companies:</p>
+    <p>1), Best Price: One of our factory investors is fabric manufacturer, our price is very aggressive and competitive. No matter what your budget is, we have a solution for you.</p>
+<p>
+2), Fast Delivery: Most of the orders can be finished in 30 – 35 days, for some rush orders we can make in 20 days.
+</p>
+<p>
+
+3), Creative and Development: We have our own staff of bags designers, engineers and operations managers, who have expertise in multiple bags categories. Every year we introduce more than 200 new styles, so our customers always have new bags in their line to attract their clients.
+</p>
+<p>
+ 
+
+4), We keep a full eye on Quality Control during material purchasing, production, printing, packaging and shipping. We offer quality inspection reports, we do QC for every bag for every order we do.
+</p>
+
+<p>
+ 
+
+5), Our factory BAGBAG bags manufacturing has passed the third party BV's factory audit to ensure you that we meet responsible quality and social compliance standards. Many factories are not registered in China, so they work with (and are at the mercy of) trading companies and/or agents</p>
+ </p>
+ <p>Our quality and service combined with our low prices makes all Obaili bags outstanding values</p>
+    </div>
+    <div class="col-lg-2"></div>
+</div>
+
+<!--------------------------------------About us End--------------------------------->
+
+<!----------------------------------feedbackstart---------------------->
+<div class="container">
+<div class="col-lg-12 abc">
+        <div class="messages" id="fbk"></div>
+			<div class="ab">Please feel free to give your inquiry in the form below.<span style="color:#FF0"">We will reply you in 24 hours.</span></div>
+			<div class="abcd"><a href="#" style="color:#FFF"><i class="glyphicon glyphicon-home"></i>&nbsp;Home&nbsp;</a>&nbsp;>&nbsp;Contact Us</div>
+		</div>
+<!-- partial:index.partial.html -->
+<section>
+  
+  <h1 class="section-header"><u>Feedback</u></h1>
+  
+  <div class="contact-wrapper">
+ 
+    <form class="form-horizontal">
+       
+      <div class="form-group">
+        <div class="col-sm-12">
+          <input type="text" class="form-control" placeholder="NAME" name="name" value="">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="col-sm-12">
+          <input type="email" class="form-control" placeholder="EMAIL" name="email" value="">
+        </div>
+      </div>
+
+      <textarea class="form-control" rows="10" placeholder="FEEDBACK FOR US" name="message"></textarea>
+      
+      <button class="btn btn-primary send-button" type="submit" value="SEND">
+        <div class="button">
+          <span class="send-text">SEND</span>
+        </div>
+      
+      </button>
+      
+    </form>
+    
+  </div>
+  
+</section>
+</div>
+<!----------------------------feedbackend--------------------->
+<!-----------------------------------Footer-Start--------------------------------------->
+<div class="row">
+<div class="col-lg-12">
+<div class="a"></div>
+</div>
+</div>
+<footer>
+	<div class="footer-top">
+    	<div class="">
+        	<div class="row">
+<!------------------------------------Segment-One-Start--------------------------------------->
+                <div class="col-lg-4 segment-one">
+					<h2>BAGBAG</h2>
+                    <p>Established in 2019, BAGBAG Manufacturing Ltd. is a top promotional bags manufacturer based in Xiamen, China. Our focus is to build long-term partnerships with our customers and bring profitable advancement through cost effective manufacturing and cutting edge product development..</p>
+                </div>
+<!------------------------------------Segment-One-End--------------------------------------->
+                
+<!------------------------------------Segment-Two-Start--------------------------------------->
+				<div class="col-lg-4 segment-two">
+                	<h2 style="color:#27A49C">BAGBAG</h2>
+                    <ul>
+                    	<li ><a href="#">Home&nbsp;<i class="glyphicon glyphicon-home"></i></a></li>
+                        <li ><a href="#gly">Gallery&nbsp;<i class="glyphicon glyphicon-picture"></i></a></li>
+                        <li ><a href="#cts">Contact Us&nbsp;<i class="glyphicon glyphicon-earphone"></i></a></li>
+                        <li ><a href="#abt">About Us&nbsp;<i class="glyphicon glyphicon-info-sign"></i></a></li>
+                        
+                    </ul>
+                </div>  
+<!------------------------------------Segment-Two-End--------------------------------------->  
+
+
+<!-----------------------------------------Segment-Three-Start-------------------------------------->
+			  <div class="col-lg-4 segment-three">
+                	<h2>Follow Us</h2>
+                <p>Please follow in our Social Media Profile in order to keep update..</p>
+               		<a href="tel:1-212-555-5555"><img src="image/Facebook.png"  /></a>
+                    <a href="tel:1-212-555-5555"><img src="image/Gmail.png"/></a>
+                    <a href="tel:1-212-555-5555"><img src="image/Twitter.png"/></a>
+                    <a href="tel:1-212-555-5555"><img src="image/Printes.png"  /></a>
+                    
+                    
+                
+                </div>
+<!-----------------------------------------Segment-Three-End-------------------------------------->
+
+
+
+            
+            </div>
+        </div>
+    </div> 
+<div>
+	<p class="footer-bottom-text">All right reserved by &copy;BAGBAG,2019</p>
+</div>
+</footer>
+</div>
+<!-----------------------------------Footer-End--------------------------------------->
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.homeheading{margin-top:50px;
+			border:2px double #11446F;
+			font-size:20px;
+			text-align:center;
+			font-family:"Times New Roman", Times, serif;
+			background:#27A49C;
+			color:#FFF;}
+.homeheading:hover{color:#27A49C;
+					background-color:#FFF;;
+				}
+				p:hover{color:#27A49C;}
+
+/* ######### CSS for shadow added to sub menus ######### */
+
+div.b0x{border:groove;	
+		position:relative;
+		overflow:hidden;
+		margin-top:20px;
+				}
+        
+				
+div.kontent{background:rgba(0,0,0,0.5);
+		position:absolute;
+		top:-100%;
+		left:0;
+		width:100%;
+		height:100%;
+		color:#FFF;
+		padding:20px;
+		box-sizing:border-box;
+		transition:all 1s;}
+		.b0x:hover .kontent{top:0;}
+		.kontent p{
+			border-top:2px solid #27A49C;
+			border-bottom:2px solid #27A49C;
+			padding:20px 0;
+			color:#FFF;
+			text-align:center;
+			font-size:18px;
+			font-family:Tahoma, Geneva, sans-serif;
+			}
+		.kontent h1{text-align:center;
+					margin-top:100px;
+					font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+					color:#FFF;}	
+
+

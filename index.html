@@ -1,0 +1,344 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>BagBags</title>
+<link rel="stylesheet" type="text/css" href="css/my-slider.css"/>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+<link rel="stylesheet" type="text/css" href="css/styling-of- btn-top.css" />
+<link rel="stylesheet" type="text/css" href="css/styling-of-header.css" />
+<link rel="stylesheet" type="text/css" href="css/styling-of-footer.css" />
+<link rel="stylesheet" type="text/css" href="css/styling--ofafter-slider.css" />
+<link rel="stylesheet" type="text/css" href="css/animate.css" />
+
+<script src="js/ism-2.2.min.js"></script>
+</head>
+<style>
+
+
+marquee img{height:200px;
+		border:ridge;}
+
+</style>
+</head>
+<body>
+
+<!------------------------------------------------GO TO TOP---------------------------------->
+
+<button onClick="topFunction()" id="myBtn" title="Go to top"><span class="glyphicon glyphicon-chevron-up"></span></button>
+
+
+
+<script>
+
+var mybutton = document.getElementById("myBtn");
+
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+
+<div class="container">
+<!--------------------------------------------Navbar-Start------------>
+
+	<div class="row" >
+    	
+			<div class="col-lg-2" id="navtop">
+				<img src="image/logo/loogo.png" height="100" width="290"/>
+			</div>
+			<div class="col-lg-2" id="navtop"></div>
+			<div class="col-lg-8" id="navtop">
+				<div class="topnav" id="myTopnav">
+  					<a href="index.html" class="active" style="color:#27A49C;border-right:double;">Home&nbsp;<i class="glyphicon glyphicon-home"></i></a>
+  					<a href="gallery.html">Gallery&nbsp;<i class="glyphicon glyphicon-picture"></i></a>
+  				 <div class="dpdown">
+   				  	<button class="dpbtn">Products 
+    			  	 <i class="caret"></i>
+   				 	</button>
+  			     	<div class="dpdown-content">
+     					<a href="productmen.html">Men&nbsp;<i class="glyphicon glyphicon-shopping-cart"></i></a>
+  						<a href="prodectwomen.html">Women&nbsp;<i class="glyphicon glyphicon-shopping-cart"></i></a>
+   			    	</div>
+  				 </div> 
+  					<a href="Brands.html">Brands</a>
+  					<a href="contactus.html">Contact Us&nbsp;<i class="glyphicon glyphicon-earphone"></i></a>
+  					<a href="aboutus.html">About Us&nbsp;<i class="glyphicon glyphicon-info-sign"></i></a>
+             		<div class="dpdown">
+    					<button class="dpbtn">Others 
+     			 		  <i class="caret"></i>
+    					</button>
+    					<div class="dpdown-content">
+     						<a href="feedback.html">Feedback</i></a>
+  	 						<a href="sitemap.html">Sitemap</i></a>
+    					</div>
+  					</div>
+  					<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+				</div>
+			</div>
+          
+         </div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+<!-------------------------------------------Navbar-End-------------------------------------->
+<div class="row">
+<div class="col-lg-12">
+<div class="a"></div>
+</div>
+</div>
+
+<!-----------------------------------------------Slider-Start------------------------------------>
+<div class="container">
+<div class="row">
+<div class="col-lg-12">
+
+
+<div class="ism-slider" data-play_type="loop" data-radios="false" id="my-slider">
+  <ol>
+    <li>
+      <img src="image/_u/1567707077838_401635.jpg">
+    </li>
+    <li>
+      <img src="image/_u/1567707074778_294773.png">
+    </li>
+    <li>
+      <img src="image/_u/1567707035252_682138.png">
+    </li>
+    <li>
+      <img src="image/_u/1568222487237_91010.png">
+    </li>
+  </ol>
+</div>
+</div>
+</div>
+</div>
+<!---------------------------------------->
+
+<!-----------------------------------------------Slider-Endt------------------------------------>
+<div class="container">
+    <div class="row">
+    	<div class="col-md-12 homeheading" id="ads">
+			<h1 >Advertisement Of Different Bags Of Our Company</h1>
+			<p style="font-size:16px;text-align:center;color:#FFF;">Designing And Creating The High Quality Durable Differnent Bags For Multipurpose Use</p>
+		</div>
+    </div>
+    </div>
+     <div class="row">
+ 	<div class="col-lg-12">
+    	<div class="banner animated tada">
+        	<div class="big-text animated tada">Weekly Sale on 60%</div>
+            <div class="smal-text animated tada">Off All Products<br /> the entire store</div>    	
+        </div>
+    </div>
+ </div>
+<!----------------------------marque-------------------------------->
+<div class="container">
+	<div class="row" style="border:2px solid #27A49C;;margin-top:10px;" >
+    	<div class="btn-lg-12">
+        	<marquee >
+            	<img src="image/images of bags/backpack/tommy-1.png" id="img"/>
+                <img src="image/images of bags/Clutches bags/dree-1.png" />
+                <img src="image/images of bags/Rucksacks/golden-1.png" />
+                <img src="image/images of bags/Sling Bags/lafille-1.png"  />
+                <img src="image/images of bags/trollybag/calvin-1.png"  />
+                <img src="image/images of bags/duffelbag/benetton-1.png"  />
+                <img src="image/images of bags/backpack/ghost-1.png"  />
+                <img src="image/images of bags/Clutches bags/dressbarry-1.png"  />
+                <img src="image/images of bags/Rucksacks/gray-1.png"  />
+                <img src="image/images of bags/Sling Bags/dress-1.png"  />
+                <img src="image/images of bags/trollybag/national-1.png"  />
+                <img src="image/images of bags/duffelbag/adidas-1.png"  />
+                <img src="image/images of bags/backpack/gods-1.png"  />
+                <img src="image/images of bags/Clutches bags/diwaah-1.png"  />
+                <img src="image/images of bags/Rucksacks/green-1.png"  />
+                <img src="image/images of bags/Sling Bags/vivin-1.png"  />
+                <img src="image/images of bags/trollybag/esbeda-1.png"  />
+                <img src="image/images of bags/duffelbag/hrx-1.png"  />
+                <img src="image/images of bags/backpack/hilf-1.png"  />
+                <img src="image/images of bags/Clutches bags/esbeda-1.png"  />
+                <img src="image/images of bags/Rucksacks/impuls-1.png"  />
+                <img src="image/images of bags/Sling Bags/sollu-1.png"  />
+                <img src="image/images of bags/trollybag/cat-1.png"  />
+                <img src="image/images of bags/duffelbag/nick-1.png"  />
+                <img src="image/images of bags/backpack/benee-1.png"  />
+                <img src="image/images of bags/Clutches bags/mango-1.png" />
+                <img src="image/images of bags/Rucksacks/mounttrack-1.png"  />
+                <img src="image/images of bags/Sling Bags/lion-1.png"  />
+                <img src="image/images of bags/trollybag/safari-1.png"  />
+                <img src="image/images of bags/duffelbag/puma-1.png"  />
+                <img src="image/images of bags/backpack/gear-1.png"  />
+                <img src="image/images of bags/Clutches bags/tommy-1.png"  />
+                <img src="image/images of bags/Rucksacks/red-1.png"  />
+                <img src="image/images of bags/Sling Bags/capres-1.png"  />
+                <img src="image/images of bags/trollybag/united-1.png"  />
+                <img src="image/images of bags/duffelbag/rebook-1.png"  />
+                <img src="image/images of bags/backpack/hill-1.png"  />
+                <img src="image/images of bags/Clutches bags/tullip-1.png"  />
+                <img src="image/images of bags/Rucksacks/redbull-1.png"  />
+                <img src="image/images of bags/Sling Bags/benetton-1.png"  />
+                <img src="image/images of bags/trollybag/saffari-1.png"  />
+                <img src="image/images of bags/duffelbag/wildcraft-1.png"  />
+                <img src="image/images of bags/backpack/nick-1.png"  />
+                <img src="image/images of bags/Clutches bags/barry-1.png"  />
+                <img src="image/images of bags/Rucksacks/wildcraft-1.png"  />
+                <img src="image/images of bags/Sling Bags/legal-1.png"  />
+                <img src="image/images of bags/trollybag/bagr-1.png"  />
+                <img src="image/images of bags/duffelbag/yellu-1.png"  />
+                <img src="image/images of bags/backpack/puma-1.png" />
+            </marquee>
+        </div>
+	</div>
+</div>
+<!-----------------------------------marque end------------------------------------>
+
+<!----------------------------------------------------aFTERSLIDER------------------------>
+	<div class="container">
+    <div class="row">
+    	<div class="col-md-12 homeheading">
+			<h1 >50 Years Of Outdoor Experience And Still Exploring</h1>
+			<p style="font-size:16px;text-align:center;color:#FFF;">Designing And Creating The High Quality Durable Backpacks For Multipurpose Use</p>
+		</div>
+    </div>
+
+    <div class="row">
+    	<div class="col-md-4 b0x">
+    		<img src="image/pexels-photo-2254125.jpeg" class="img-responsive img-rounded "/>
+            <div class="kontent">
+            	<h1>Traveling Bag</h1>
+                <p>If you select this Bag your trip will be happy and joyfull and your persnal thing well be save.</p>
+            </div>
+		</div>
+        <div class="col-md-4 b0x">
+    		<img src="image/pexels-photo-2805394.jpeg" class="img-responsive img-rounded "/>
+            <div class="kontent">
+            	<h1>Traveling Bag</h1>
+                <p>If you select this Bag your trip will be happy and joyfull and your persnal thing well be save.</p>
+            </div>
+		</div>
+         <div class="col-md-4 b0x">
+    		<img src="image/pexels-photo-2846123.jpeg" class="img-responsive img-rounded"/>
+            <div class="kontent">
+            	<h1>Shopping Bag</h1>
+                <p>If you select this Bag your trip will be happy and joyfull and your persnal thing well be save.</p>
+            </div>
+		</div>
+    </div>
+	
+    
+     <div class="row">
+    	<div class="col-md-4 b0x">
+    		<img src="image/pexels-photo-2292919.jpeg" class="img-responsive img-rounded "/>
+            <div class="kontent">
+            	<h1>Traveling Bag</h1>
+                <p>If you select this Bag your trip will be happy and joyfull and your persnal thing well be save.</p>
+            </div>
+		</div>
+        <div class="col-md-4 b0x">
+    		<img src="image/pexels-photo-2766334.jpeg" class="img-responsive img-rounded "/>
+            <div class="kontent">
+            	<h1>Traveling Bag</h1>
+                <p>If you select this Bag your trip will be happy and joyfull and your persnal thing well be save.</p>
+            </div>
+		</div>
+         <div class="col-md-4 b0x">
+    		<img src="image/pexels-photo-972937.jpeg" class="img-responsive img-rounded"/>
+            <div class="kontent">
+            	<h1>Shopping Bag</h1>
+                <p>If you select this Bag your trip will be happy and joyfull and your persnal thing well be save.</p>
+            </div>
+		</div>
+    </div>
+
+
+</div>
+<!----------------------------AFTERSLIDER END------------------------------------------>
+
+<!-----------------------------------Footer-Start--------------------------------------->
+<div class="row">
+<div class="col-lg-12">
+<div class="a"></div>
+</div>
+</div>
+<footer>
+	<div class="footer-top">
+    	<div class="">
+        	<div class="row">
+<!------------------------------------Segment-One-Start--------------------------------------->
+                <div class="col-lg-4 segment-one">
+					<h2>BAGBAG</h2>
+                    <p>Established in 2019, BAGBAG Manufacturing Ltd. is a top promotional bags manufacturer based in Xiamen, China. Our focus is to build long-term partnerships with our customers and bring profitable advancement through cost effective manufacturing and cutting edge product development..</p>
+                </div>
+<!------------------------------------Segment-One-End--------------------------------------->
+                
+<!------------------------------------Segment-Two-Start--------------------------------------->
+				<div class="col-lg-4 segment-two">
+                	<h2 style="color:#27A49C">BAGBAG</h2>
+                    <ul>
+                    	<li ><a href="index.html" style="font-size:16px">Home&nbsp;<i class="glyphicon glyphicon-home"></i></a></li>
+                        <li ><a href="gallery.html" style="font-size:16px">Gallery&nbsp;<i class="glyphicon glyphicon-picture"></i></a></li>
+                        <li ><a href="contactus.html" style="font-size:16px">Contact Us&nbsp;<i class="glyphicon glyphicon-earphone"></i></a></li>
+                        <li ><a href="aboutus.html" style="font-size:16px">About Us&nbsp;<i class="glyphicon glyphicon-info-sign"></i></a></li>
+                         <li ><a href="feedback.html" style="font-size:16px">Feedback</a></li>
+                          <li ><a href="sitemap.html" style="font-size:16px">Sitemap</a></li>
+                        
+                    </ul>
+                </div>  
+<!------------------------------------Segment-Two-End--------------------------------------->  
+
+
+<!-----------------------------------------Segment-Three-Start-------------------------------------->
+			  <div class="col-lg-4 segment-three">
+                	<h2>Follow Us</h2>
+                <p>Please follow in our Social Media Profile in order to keep update..</p>
+               		<a href="tel:1-212-555-5555"><img src="image/Facebook.png"  /></a>
+                    <a href="tel:1-212-555-5555"><img src="image/Gmail.png"/></a>
+                    <a href="tel:1-212-555-5555"><img src="image/Twitter.png"/></a>
+                    <a href="tel:1-212-555-5555"><img src="image/Printes.png"  /></a>
+                    
+                    
+                
+                </div>
+<!-----------------------------------------Segment-Three-End-------------------------------------->
+
+
+
+            
+            </div>
+        </div>
+    </div> 
+<div>
+	<p class="footer-bottom-text">All right reserved by &copy;BAGBAG,2019</p>
+</div>
+</footer>
+</div>
+<!-----------------------------------Footer-End--------------------------------------->
+
+
+
+
+
+
+</body>
+</html>

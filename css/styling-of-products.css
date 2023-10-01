@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+  
+}
+
+body {
+
+  padding: 20px;
+  font-family: Arial;
+  background-size:cover;
+ 
+ 
+}
+del{
+	color:#CCC;
+}
+.glry{
+	height:400px;
+	background-image:url(BBNew%20folder/image/slider%20images/20170201-hp-default-business-travel-bags-b.jpg);
+	border:groove;
+}
+/* Center website */
+.main {
+ 	
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.rrow {
+  margin: 10px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.rrow,
+.rrow > .column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  display: none; /* Hide all elements by default */
+}
+
+/* Clear floats after rows */ 
+.rrow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+  border-radius:10px;
+  border:groove;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.bttn {
+  border: outset;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+  width:140px;
+  border-radius:20px;}
+
+.bttn:hover {
+  background-color: #27A49C;
+  color:white;
+}
+
+.bttn.active {
+  background-color: #11446F;
+  color: white;
+}
+.op{
+	border-radius:30px;
+	transition:0.4s;
+	
+	
+}
+
+.op:hover{
+	transform:scale(1.2);
+	border:2px double #000000;
+	
+}
+.btn{
+	background-color:#27A49C;
+	
+.btn:hover{
+	background-color: #11446F;
+	
+}
